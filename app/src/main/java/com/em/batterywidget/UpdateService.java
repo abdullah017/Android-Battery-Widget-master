@@ -121,7 +121,7 @@ public class UpdateService extends IntentService {
         // Gets an instance of the NotificationManager service//
 
         NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-
+      
         mNotificationManager.notify(001, mBuilder.build());
     }
 
